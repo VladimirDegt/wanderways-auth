@@ -15,7 +15,7 @@
     />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="shortcut icon" href="./images/favicon.png" />
-    <title>Wanderways | SignIn</title>
+    <title>Wanderways | SignUp</title>
   </head>
   <body class="container">
     <header class="header">
@@ -25,7 +25,7 @@
     <main class="main">
       <div class="hero">
         <img class="logo" src="./images/svg/LogoLarge.png" alt='logo' width="80" height="80"/>
-        <h1 class="title">Log in to your account</h1>
+        <h1 class="title">Create an account</h1>
       </div>
       <form class="form">
         <div class="container__input">
@@ -36,7 +36,7 @@
             name="email" 
             id="email"
             required 
-          />
+            />
           <img class="input__icon" src="./images/svg/email.svg" alt="email"/>
         </div>
         <div class="container__input">
@@ -52,8 +52,11 @@
           />
           <img class="input__icon" src="./images/svg/password.svg" alt="email"/>
         </div>
-        <a class="restore__password" href="#">Restore password</a>
-        <button class="btn" type="submit">Sign In</button>
+        <div class="container__text-conditions">
+            <p class="text-conditions">By signing up you agree with out</p>
+            <a class="text-conditions conditions" href="#">Terms & Conditions</a>
+           </div>
+        <button class="btn" type="submit">Sign Up</button>
       </form>
       <ul class="container__social">
         <li>
@@ -73,8 +76,8 @@
         </li>       
       </ul>
      <div class="container__text-account">
-      <p class="text-account">Don’t have an account?</p>
-      <a class="redirect" href="./signup.html">Sign Up</a>
+      <p class="text-account">Already have an account?</p>
+      <a class="redirect" href="./index.html">Sign In</a>
      </div>
     </main>
 

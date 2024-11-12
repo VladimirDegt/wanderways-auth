@@ -279,4 +279,23 @@ line-height: normal;
 color: var(--blue-label);
 }
 
+.container__text-conditions {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  gap: 4px;
+}
+
+.text-conditions {
+  font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: var(--secondary-text);
+}
+
+.conditions {
+  color: var(--blue-label)
+}
+
 
